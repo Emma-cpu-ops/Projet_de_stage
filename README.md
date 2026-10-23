@@ -6,7 +6,7 @@ Ce projet est un site web conçu et développé dans le cadre de mon stage chez 
 
 L'objectif du site est de permettre aux utilisateurs de découvrir et d'acheter des formations en anglais.
 
-J'ai participé à la réalisation complète du site, de la conception au développement. Le projet n'a pas été déployé avant la fin de ma période de stage.
+J'ai participé à la réalisation complète du site, de la conception au développement front-end et back-end, jusqu'à son **déploiement en production** sur serveur mutualisé **o2switch**.
 
 ---
 
@@ -16,41 +16,45 @@ Le site permet notamment de :
 
 * 📚 Découvrir les formations disponibles
 * 🔎 Consulter les informations sur les différentes formations
-* 🛒 Sélectionner et acheter une formation
-* 📧 Recevoir des emails grâce au système de messagerie
-* 💳 Tester le processus de paiement en environnement de test
-
-> **Note :** Les véritables API de paiement n'ont pas été intégrées en production avant la fin du stage. Le système de paiement est resté en phase de test.
+* 🛒 Ajouter des formations au panier (sans compte requis)
+* 🔐 S'inscrire ou se connecter pour finaliser un achat
+* 💳 Payer en 1x ou en 3x sans frais via **Stripe**
+* 📧 Recevoir des emails de confirmation et de notifications
+* 📎 Joindre un justificatif lors du paiement (étudiant / professionnel)
+* ⚙️ Gérer son compte, ses achats et ses paiements en cours
 
 ---
 
 ## 🛠️ Technologies utilisées
 
-* **Symfony**
+* **Symfony 7** (PHP 8.x)
 * **PHP**
 * **MySQL**
+* **Stripe API** (paiements sécurisés, paiements en 3x)
 * **Symfony Mailer**
 * **Composer**
+* **o2switch** (hébergement & déploiement)
 
 ---
 
 ## 👩🏽‍💻 Mon rôle
 
-Dans le cadre de mon stage, j'ai participé à la réalisation de l'ensemble du site, notamment :
+Dans le cadre de mon stage, j'ai réalisé l'ensemble du projet, notamment :
 
-* Conception et développement du site web
-* Développement des différentes pages et fonctionnalités
-* Mise en place du back-end avec Symfony et PHP
-* Gestion et utilisation de la base de données MySQL
-* Mise en place de l'envoi d'emails
-* Intégration et tests du processus de paiement
-* Tests et corrections avant la fin de la mission
+* Conception et développement complet du site web
+* Développement des pages et fonctionnalités (front-end & back-end)
+* Mise en place du back-end avec **Symfony 7** et **PHP**
+* Gestion de la base de données **MySQL**
+* Intégration de **Stripe** pour les paiements en ligne (1x et 3x)
+* Mise en place de l'envoi d'emails transactionnels
+* Système d'authentification avec OTP par email
+* Gestion du panier (invité + utilisateur connecté)
+* Tests, corrections et validation avant mise en ligne
+* **Déploiement en production** sur serveur **o2switch**
 
 ---
 
 ## 📸 Aperçu du site
-
-Il faut noté que ce sont les images principales du site
 
 ### 🏠 Page d'accueil
 
@@ -84,15 +88,14 @@ Il faut noté que ce sont les images principales du site
 
 ## 🚀 Statut du projet
 
-Le développement du site a été réalisé dans le cadre de mon stage chez **EC-Association**.
+Le site est actuellement **déployé et opérationnel** en production.
 
-À la fin de ma période de stage :
-
-* Le site était développé et fonctionnel en environnement de développement
-* Le système de paiement était en phase de test
-* Les véritables API de paiement n'étaient pas encore intégrées
-* Le déploiement et la mise en ligne n'ont pas été réalisés avant la fin de ma mission
+* ✅ Site développé et fonctionnel
+* ✅ Paiements Stripe intégrés (1x et 3x sans frais)
+* ✅ Système de panier invité avec connexion au moment du paiement
+* ✅ Envoi d'emails transactionnels actif
+* ✅ Déployé sur serveur mutualisé **o2switch**
 
 ---
 
-### 📌 Projet réalisé dans le cadre d'une expérience professionnelle de stage.
+### 📌 Projet réalisé dans le cadre d'une expérience professionnelle de stage chez **EC-Association**.
