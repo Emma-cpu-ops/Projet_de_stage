@@ -1,5 +1,7 @@
 # 🇬🇧 EC-Association — Plateforme de formation en anglais
 
+🌐 **Site en ligne :** [ecassociation.fr](https://ecassociation.fr)
+
 ## 📌 À propos du projet
 
 Ce projet est un site web conçu et développé dans le cadre de mon stage chez **EC-Association**.
