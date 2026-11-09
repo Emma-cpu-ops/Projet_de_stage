@@ -68,7 +68,7 @@ Dans le cadre de mon stage, j'ai réalisé l'ensemble du projet, notamment :
 
 ### 📚 Formations
 
-![Page des formations](./images/pageformation.png)
+![Page des formations](./images/pageformations.png)
 
 ### 📖 À propos
 
@@ -76,11 +76,12 @@ Dans le cadre de mon stage, j'ai réalisé l'ensemble du projet, notamment :
 
 ### ℹ️ Informations sur une formation
 
-![Informations sur une formation](./images/pageinformation.png)
+![Informations sur une formation](./images/pageinformations.png)
 
 ### 💳 Paiement
 
-![Page de paiement](./images/pagepaiement.png)
+![Page de paiement](./images/pagepaiement1.png)
+![Page de paiement](./images/pagepaiement2.png)
 
 ### ✅ Confirmation du code OTP lors de l'inscription
 
